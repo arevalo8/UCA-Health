@@ -1,0 +1,54 @@
+# Eclipse / STS / Buildship 
+**/.metadata/
+**/.settings/
+**/.project
+**/.classpath
+**/.factorypath
+**/.apt_generated/
+**/.springBeans
+**/.sts4-cache/
+
+# Java / Maven
+**/target/
+**/*.log
+**/.mvn/timing.properties
+
+
+# Gradle / Android Studio build outputs
+**/.gradle/
+**/build/
+**/captures/
+**/.externalNativeBuild/
+**/.cxx/
+**/local.properties
+
+# Android artifacts 
+**/*.apk
+**/*.aab
+
+
+# Kotlin/Java 
+**/*.class
+
+
+# PostgreSQL / DB dumps
+**/*.sql
+**/*.dump
+**/*.backup
+
+
+# Environment / secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+
+# Logs / runtime
+**/logs/
+**/*.pid
+
+
+# OS
+.DS_Store
+Thumbs.db
+`
