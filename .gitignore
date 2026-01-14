@@ -13,7 +13,6 @@
 **/*.log
 **/.mvn/timing.properties
 
-
 # Gradle / Android Studio build outputs
 **/.gradle/
 **/build/
@@ -26,16 +25,17 @@
 **/*.apk
 **/*.aab
 
+# Android Studio 
+**/.idea/
+**/*.iml
 
 # Kotlin/Java 
 **/*.class
-
 
 # PostgreSQL / DB dumps
 **/*.sql
 **/*.dump
 **/*.backup
-
 
 # Environment / secrets
 **/.env
@@ -46,7 +46,6 @@
 # Logs / runtime
 **/logs/
 **/*.pid
-
 
 # OS
 .DS_Store
