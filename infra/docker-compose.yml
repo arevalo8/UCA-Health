@@ -35,4 +35,4 @@ services:
       - "8080:8080"
 
 volumes:
-  dbdata:
+  dbdata:/var/lib/postgresql/data
